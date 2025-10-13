@@ -1,4 +1,3 @@
-package Practice_Question;
 
 public class trapping_rain_water {
 

@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class arr{
        public static void main(String[] args){
 
-        Scanner Input = new Scanner(System.in);
-        int n = Input.nextInt();
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
         int[] arr = new int[n];
     
         int[] other = arr ; 
 
         for(int i = 0 ; i<arr.length;i++){
-            arr[i] = Input.nextInt();
+            arr[i] = input.nextInt();
         }
         // Display(arr);
         Swap(arr , 0 , 1);

@@ -1,5 +1,3 @@
-package Practice_Question;
-
 import java.util.Scanner;
 
 public class rotatearra {
