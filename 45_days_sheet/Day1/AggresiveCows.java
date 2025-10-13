@@ -30,6 +30,7 @@ sc.close();
 public static int aggresivecow(int[]stall, int c ){
   int lo = 0 ;
   int hi = stall[stall.length-1]-stall[0];
+  System.out.println(hi);
   int ans = 0 ;
 
   while(lo<=hi){
